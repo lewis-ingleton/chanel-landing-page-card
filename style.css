@@ -1,0 +1,98 @@
+* {
+ border: red solid 1px;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+}
+
+#card {
+    max-width: 40%;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.5%;
+
+}
+
+#card img {
+    height: 500px;
+    border-top-left-radius: 1.5%;
+    border-bottom-left-radius: 1.5%;
+    
+}
+
+#card-left {
+    width: 50%;
+    display: inline;
+}
+
+#card-right {
+    padding: 20px;
+    width: 49%;
+    display: inline;
+}
+
+#description {
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+} 
+
+.category-title {
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+#old-price {
+    text-decoration: line-through;
+
+
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 2.5%;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer { 
+    font-size: 11px; text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 4px;
+    text-align: center;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
