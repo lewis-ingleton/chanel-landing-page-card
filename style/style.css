@@ -84,7 +84,8 @@ h2 {
 button {
     background-color: hsl(158, 36%, 37%);
     color: white;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     border: none;
     border-radius: 5px;
     width: 100%;
@@ -101,6 +102,12 @@ button a {
 button:hover {
     background-color: hsl(158, 40%, 28%);
     cursor: pointer;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 5px;
+    right: 10px;
 }
 
 /* Footer  */
