@@ -98,6 +98,11 @@ button a {
     color: white;
 }
 
+button:hover {
+    background-color: hsl(158, 40%, 28%);
+    cursor: pointer;
+}
+
 /* Footer  */
 
 
