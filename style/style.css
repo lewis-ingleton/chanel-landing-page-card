@@ -58,6 +58,7 @@ h2 {
     display: flex;
     max-width: 650px;
     border-radius: 10px;
+    box-shadow: -30px 38px 40px -13px rgba(0,0,0,0.1);
 }
 
 #card img {
