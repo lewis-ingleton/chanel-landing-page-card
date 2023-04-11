@@ -54,7 +54,7 @@ h2 {
 
 #card {
     background-color: white;
-    margin: 0;
+    margin: 10px;
     display: flex;
     max-width: 650px;
     border-radius: 10px;
@@ -140,7 +140,7 @@ footer a {
    
     #card {
         background-color: white;
-        margin: 10px;
+        margin: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
